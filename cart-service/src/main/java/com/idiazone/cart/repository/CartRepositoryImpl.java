@@ -21,10 +21,10 @@ public class CartRepositoryImpl implements CartRepository {
 	@Autowired
 	private RestTemplate restTemplate;
 
-	@Value("${user.service.url}")
+	@Value("${service.url.user}")
 	private String userServiceUrl;
 
-	@Value("${product.service.url}")
+	@Value("${service.url.product}")
 	private String productServiceUrl;
 
 	@Override
