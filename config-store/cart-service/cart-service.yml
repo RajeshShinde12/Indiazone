@@ -1,0 +1,14 @@
+server: 
+  port: 8081
+
+spring: 
+   application: 
+      name: cart-service
+   jackson: 
+      default-property-incluseion: NON_NULL  
+      
+service: 
+    url: 
+      product: http://product-service
+      user: http://user-service
+ 
