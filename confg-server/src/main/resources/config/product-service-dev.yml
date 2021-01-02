@@ -1,8 +1,0 @@
-server: 
-  port: 8081
-
-spring: 
-   application: 
-      name: product-service
-   jackson: 
-      default-property-incluseion: NON_NULL 
